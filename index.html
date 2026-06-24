@@ -26,7 +26,9 @@ html,body{height:100%;overflow:hidden;background:var(--bg);font-family:var(--fon
 .dark .b1{background:rgba(85,65,175,0.17);}.dark .b2{background:rgba(45,85,165,0.13);}
 .frame{display:flex;align-items:center;justify-content:center;height:100vh;padding:12px;}
 .iphone{width:393px;height:852px;max-height:96vh;border-radius:52px;background:var(--app);overflow:hidden;position:relative;display:flex;flex-direction:column;backdrop-filter:var(--blur);box-shadow:0 0 0 1px rgba(0,0,0,0.18),0 48px 96px rgba(0,0,0,0.32),inset 0 0 0 1.5px rgba(255,255,255,0.16);}
-
+.notch{position:absolute;top:0;left:50%;transform:translateX(-50%);width:126px;height:37px;background:#000;border-radius:0 0 26px 26px;z-index:100;}
+.sbar{height:59px;padding:16px 28px 0;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;z-index:10;position:relative;}
+.stime{font-size:15px;font-weight:600;letter-spacing:-0.3px;color:var(--t1);}
 .sicons{display:flex;gap:6px;align-items:center;color:var(--t1);}
 .appw{flex:1;overflow:hidden;display:flex;flex-direction:column;position:relative;z-index:1;}
 .hdr{padding:2px 20px 10px;flex-shrink:0;display:flex;align-items:flex-end;justify-content:space-between;}
